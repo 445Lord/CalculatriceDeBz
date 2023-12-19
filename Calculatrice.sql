@@ -1,0 +1,26 @@
+DROP TABLE IF EXISTS Note;
+DROP TABLE IF EXISTS Eleve;
+DROP TABLE IF EXISTS Groupe;
+
+CREATE TABLE Groupe(
+    num INTEGER PRIMARY KEY AUTOINCREMENT,
+    libelle VARCHAR(255) NOT NULL,
+    CONSTRAINT NID1_bra_libelle UNIQUE (libelle)
+);
+
+CREATE TABLE Eleve(
+    num INTEGER PRIMARY KEY AUTOINCREMENT,
+    numGroupe INTEGER NOT NULL,
+    prenom VARCHAR(255) NOT NULL, 
+    nom VARCHAR(255) NOT NULL,
+    estPleinTemps BOOLEAN NOT NULL,  
+    CONSTRAINT FK1_el_bra_numGroupe FOREIGN KEY (numGroupe) REFERENCES Groupe(num)
+);
+
+CREATE TABLE Note(
+    num INTEGER PRIMARY KEY AUTOINCREMENT,
+    numEleve INTEGER NOT NULL,
+    note DECIMAL NOT NULL,
+    dateEvaluation DATE NOT NULL,
+    CONSTRAINT FK1_no_el_recoit FOREIGN KEY (numEleve) REFERENCES Eleve(num)
+);

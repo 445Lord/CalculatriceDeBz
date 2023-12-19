@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "XjBkvOScsa638re89kPi6+RVv235fie8NH79D2G08zVA+nURDpFK1nId0BlflYyXJJezJpqFPxCWpxCmtL1gaw==",
+  "dgSpecHash": "BsmjP4fTk/sUdQI8V3cZMX3agLkUVGbQwZHUt4G9iMP3EMmJemjhLY0GJeNOeooARirwizD7XYuD9jBz0adk5w==",
   "success": true,
   "projectFilePath": "C:\\Users\\emeri\\OneDrive\\Documents\\he-arc\\ProjetGroupe\\calculatriceFairyFountain\\calculatriceFairyFountain\\calculatriceFairyFountain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\emeri\\.nuget\\packages\\microsoft.data.sqlite.core\\8.0.0\\microsoft.data.sqlite.core.8.0.0.nupkg.sha512",
+    "C:\\Users\\emeri\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.1.7\\sqlitepclraw.bundle_green.2.1.7.nupkg.sha512",
+    "C:\\Users\\emeri\\.nuget\\packages\\sqlitepclraw.core\\2.1.7\\sqlitepclraw.core.2.1.7.nupkg.sha512",
+    "C:\\Users\\emeri\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.1.7\\sqlitepclraw.lib.e_sqlite3.2.1.7.nupkg.sha512",
+    "C:\\Users\\emeri\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.1.7\\sqlitepclraw.provider.e_sqlite3.2.1.7.nupkg.sha512",
+    "C:\\Users\\emeri\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512"
+  ],
   "logs": []
 }
