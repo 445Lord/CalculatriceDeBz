@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "calculatriceFairyFountain", "calculatriceFairyFountain\calculatriceFairyFountain.csproj", "{3B3A4143-4445-48E5-ADFF-397F24075305}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3B3A4143-4445-48E5-ADFF-397F24075305}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B3A4143-4445-48E5-ADFF-397F24075305}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B3A4143-4445-48E5-ADFF-397F24075305}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B3A4143-4445-48E5-ADFF-397F24075305}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9FE648DB-A9BB-4D5A-B967-2E8A9D05BA2E}
+	EndGlobalSection
+EndGlobal
