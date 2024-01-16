@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("calculatriceFairyFountain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bcc07ee1e5730c104897b7ab9299e05ec87d8e2c")]
 [assembly: System.Reflection.AssemblyProductAttribute("calculatriceFairyFountain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("calculatriceFairyFountain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
